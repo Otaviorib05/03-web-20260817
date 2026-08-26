@@ -1,8 +1,9 @@
-* {
+@import url("cartao.css");
+*{
     font-size: 16px;
     font-family: 'Segoe UI' , Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0rem;
+    padding: 0rem;
 }
 
 body{
@@ -26,13 +27,13 @@ header {
 
 }
 .logo {
-    border: .2rem solid blue;
+    border: .1rem solid blue;
     background-color: blue;
     font-weight: bold;
     width: 1rem;
     height: 1rem;
     padding: 0.7rem;
-    dispay: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -69,4 +70,19 @@ main{
     display: flex;
     flex: 1;
     padding: .5rem;
+}
+.container{
+    display: flex;
+    flex:1;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: left;
+
+}
+footer{
+    height: 4rem;
+    padding: .5rem;
+    background-color: #252323;
+    color: #eee;
 }
