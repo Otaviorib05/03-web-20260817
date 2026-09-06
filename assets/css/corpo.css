@@ -1,15 +1,21 @@
-nav{
+section {
+    /* border: .2rem solid blue; */
+    display: flex;
+    flex: 1;
+}
+
+nav {
     /* border: .2rem solid yellow; */
     width: 10rem;
     background-color: #eee;
-    padding: 0.5rem;
+    padding: .5rem;
 }
 
-footer {
-    /* border: .2rem solid green; */
-        height: 4rem;
-        padding: .5rem;
-        background-color: #252323;
-        color: #eee;  
-
+.container {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: left;
 }
