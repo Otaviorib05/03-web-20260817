@@ -1,6 +1,17 @@
 footer {
+<<<<<<< HEAD
+=======
+    /* border: .2rem solid green; */
+>>>>>>> refs/remotes/origin/main
     height: 4rem;
     padding: .5rem;
     background-color: #252323;
     color: #eee;
+<<<<<<< HEAD
+=======
+    /* display: flex; */
+    /* justify-content: center; alinhar horizontalmente */
+    /* align-items: center; */
+    /* align-content: center; */
+>>>>>>> refs/remotes/origin/main
 }

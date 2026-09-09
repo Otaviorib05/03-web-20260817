@@ -1,16 +1,26 @@
 @import url("cabecalho.css");
+@import url("cartao.css");
 @import url("corpo.css");
+<<<<<<< HEAD
 @import url("cartao.css");
 @import url("rodape.css");
 @import url("menulateral.css");
 * { /* asterisco é um seletor universal (aplica regras de estilo a todos os elementos da página) */
     font-size: 16px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+=======
+@import url("rodape.css");
+
+* {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+>>>>>>> refs/remotes/origin/main
     margin: 0rem;
     padding: 0rem;
 }
 
 body {
+<<<<<<< HEAD
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -68,4 +78,10 @@ footer {
     padding: .5rem;
     background-color: #252323;
     color: #eee;
+=======
+    /* border: 0.5rem solid aqua; */
+    min-height: 100vh; /* view-port height */
+    display: flex;
+    flex-direction: column;
+>>>>>>> refs/remotes/origin/main
 }
