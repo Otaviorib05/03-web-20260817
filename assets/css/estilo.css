@@ -1,89 +1,69 @@
-@import url("cartao.css");
-@import url("rodape.css");
 @import url("cabecalho.css");
 @import url("corpo.css");
-*{
+@import url("cartao.css");
+@import url("rodape.css");
+
+* { /* asterisco é um seletor universal (aplica regras de estilo a todos os elementos da página) */
     font-size: 16px;
-    font-family: 'Segoe UI' , Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0rem;
     padding: 0rem;
 }
 
-body{
-    /* border: .2rem solid #0ac7e9d7; */
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
+
 header {
-    /* border: 0.2rem solid red;   */
-    height: 4rem;  
+    height: 4rem;
     display: flex;
-    padding: 0.5rem;
-    /* justify-content: center; */
     align-items: center;
     align-content: center;
+    padding: .5rem;
     background-color: #252323;
     color: #eee;
-
-
-
 }
+
 .logo {
-    border: .1rem solid blue;
+    border: .1rem blue solid;
     background-color: blue;
+    color: #eee;
     font-weight: bold;
+    border-radius: 100%;
     width: 1rem;
     height: 1rem;
-    padding: 0.7rem;
+    padding: .7rem;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    border-radius: 100%;
     margin-right: .7rem;
 }
 
-.titulo{
-    /* border: .2rem solid yellow; */
-    width: 100%;
-}
-
 section {
-    /* border: .2rem solid blue; */
+    /* border: .1rem purple solid; */
     display: flex;
     flex: 1;
 }
-footer {
-    /* border: .2rem solid green; */
-        height: 4rem;
-        padding: .5rem;
-        background-color: #252323;
-        color: #eee;  
 
-}
-nav{
-    /* border: .2rem solid yellow; */
+nav {
     width: 10rem;
     background-color: #eee;
-    padding: 0.5rem;
-}
-main{
-    /* border: .2rem solid purple; */
-    display: flex;
-    flex: 1;
     padding: .5rem;
 }
-.container{
+
+.container {
     display: flex;
-    flex:1;
+    flex: 1;
     padding: 1rem;
     flex-wrap: wrap;
     gap: .8rem;
-    justify-content: left;
-
+    justify-content: left
 }
-footer{
+
+footer {
     height: 4rem;
     padding: .5rem;
     background-color: #252323;

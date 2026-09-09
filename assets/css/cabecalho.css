@@ -1,58 +1,54 @@
 header {
-    /* border: 0.2rem solid red;   */
-    height: 4rem;  
+    height: 4rem;
     display: flex;
-    padding: 0.5rem;
-    /* justify-content: center; */
     align-items: center;
     align-content: center;
+    padding: .5rem;
     background-color: #252323;
     color: #eee;
 }
 
 .logo {
-    border: .1rem solid blue;
+    border: .1rem blue solid;
     background-color: blue;
+    color: #eee;
     font-weight: bold;
+    border-radius: 100%;
     width: 1rem;
     height: 1rem;
-    padding: 0.7rem;
+    padding: .7rem;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    border-radius: 100%;
     margin-right: .7rem;
 }
-.titulo{
+
+.titulo {
     flex: 1;
 }
+
 .menu-hamburguer {
     border-radius: 100%;
     width: 1rem;
     height: 1rem;
-    padding: .8rem ;
+    padding: .8rem;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     background-color: #464646;
-    
 }
 
-.menu-hamburguer i {
+.menu-hamburguer #icone { /* i é subordinado ao menu-hamburguer */
     font-size: 1.2rem;
-    color: #ccc;
-
+    color: #ccc; /* #ccc */
 }
 
-.menu-hamburguer:hover i {
-    color: #eee;
-
-}
-.menu-hamburguer i:hover {
-    color: #ffffff;
+.menu-hamburguer:hover #icone {
+    color: red; /* #eee */
 }
 
-
-
+.menu-hamburguer #icone:hover {
+    color: yellowgreen; /* white */
+}
