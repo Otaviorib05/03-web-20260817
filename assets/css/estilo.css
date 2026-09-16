@@ -3,6 +3,7 @@
 @import url(cartao.css);
 @import url("rodape.css");
 @import url("menulateral.css");
+@import url("responsividade.css");
 
 
 * { /* asterisco é um seletor universal (aplica regras de estilo a todos os elementos da página) */
