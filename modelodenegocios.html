@@ -1,17 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout com CSS Grid</title>
+    <style>
+        * {
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas:
+                "header header header"
+                "main main sidebar"
+          
+                "footer footer footer";
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 18rem;
+            grid-template-rows: 5rem auto 4rem;
+            height: 100vh;
+        }
+
+        .header {
+            grid-area: header;
+            background: #333;
+            color: #eee;
+            text-align: center;
+            padding: 1rem;
+        }
+        .menu lateral {
+            grid-area: menu lateral;
+            background: #333;
+            color: #eee;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .main {
+            grid-area: main;
+            background: #ddd;
+            padding: 1rem;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background: #555;
+            color: #eee;
+            padding: 1rem;
+        }
+
+        .footer {
+            grid-area: footer;
+            background: #333;
+            color: #eee;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
 </head>
-Modelo de Negócios
+
 <body>
-  <div class = "modelo-de-negocios"></div>
+    <div class="container">
+        <div class="header">Logo | Título | Menu</div>
+        <div class="main">Área Principal</div>
+        <aside class="sidebar">Menu Lateral Direito</aside>
+        <div class="footer">Rodapé</div>
+        <div class = menu lateral>Menu Lateral Esquerdo</div>
+    </div>
 </body>
-<section>
-  <h1>Modelo de Negócios</h1>
-  <p>O modelo de negócios descreve como uma empresa cria, entrega e captura valor. Ele é essencial para entender a proposta de valor da empresa, seus clientes, canais de distribuição, fontes de receita e estrutura de custos. Um modelo de negócios bem definido ajuda a orientar as decisões estratégicas e operacionais da empresa.</p>
-  <button>Conferir</button>
 
 </html>
