@@ -5,13 +5,13 @@ function verificarCredenciais() {
     const emailInformado = document.getElementById("email").value;
     const senhaInformada = document.getElementById("senha").value;
 
-    if (emailInformado === email && senhaInformada === senha) {
-        alert("Credenciais verificadas com sucesso!");
+    if (emailInformado === email ) {
+        alert("E-mail informado corretamente!");
         if(SenhaInformada === senha) {
-            alerta("Senha correta!");
+            alert("Senha correta!");
             window.location = "home.html";
         } else 
-            alert("E-mail incorreto!");
+            alert("Senha incorreta!");
     } else 
-        alert("Senha incorreta!");
+        alert("E-mail incorreto!");
 }
