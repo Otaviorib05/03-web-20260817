@@ -1,2 +1,4 @@
-const email = "admin@email.com";
-const senha = "1234";
+const usuario = {
+    email: "admin@email.com",
+    senha: "1234"
+};                             
