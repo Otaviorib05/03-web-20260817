@@ -22,7 +22,7 @@ const carregarNoticias = async () => {
     vetor_das_noticias = dados_das_noticias;
 };
 
-const apresentarNoticias = async () => {
+function apresentarNoticias() {
     vetor_das_noticias.forEach((noticia) => {
         const cartao = document.createElement("div");
         cartao.className = "cartao";

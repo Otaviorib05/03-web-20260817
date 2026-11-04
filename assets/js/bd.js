@@ -15,7 +15,7 @@ export const dados_das_noticias = [
     categoria: "Transporte",
     autor: "Ana Clara Pereira",
     data: "16/02/2026",
-    imagem: "./assets/img/mobilidade.png",
+    imagem: "./assets/css/img/mobilidade.png",
   },
   {
     id: 1,
@@ -26,7 +26,7 @@ export const dados_das_noticias = [
     categoria: "Tecnologia",
     autor: "Bruno Costa e Silva",
     data: "09/03/2026",
-    imagem: "./assets/img/tecnologia6g.png",
+    imagem: "./assets/css/img/tecnologia6g.png",
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ export const dados_das_noticias = [
     categoria: "Cultura",
     autor: "Carla Vieira Grossi",
     data: "20/04/2026",
-    imagem: "./assets/img/festivaldemusica.png",
+    imagem: "./assets/css/img/festivalMusical.png",
   },
   {
     id: 3,
@@ -48,6 +48,6 @@ export const dados_das_noticias = [
     categoria: "Gastronomia",
     autor: "Fabiana Pereira Lima",
     data: "04/05/2026",
-    imagem: "./assets/img/gastronomia.png",
+    imagem: "./assets/css/img/gastronomia.png",
   },
 ];
